@@ -1,0 +1,5 @@
+Dynamic Web Project
+Name it
+Right click on project -> run as -> run on server -> tomcat
+Right click on project -> build path -> source -> replace build with WebContent/WEB-INF
+Java Resources -> new -> servlet -> java package com.patrickkilpatrick.web -> class name Home
