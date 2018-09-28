@@ -1,0 +1,18 @@
+@charset "ISO-8859-1";
+
+.dog {
+	display: inline-block;
+	margin-right: 125px;
+}
+
+.cat {
+	display: inline-block;
+}
+
+.dogF {
+	width: 50px;
+}
+
+.catF {
+	width: 50px;
+}
