@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Oct 04 13:00:09 EDT 2018
+0e457066c91fff7265565a4b26662058120af9dd@131.84.11.215\:9119>@default-maven-central-https\://devtools.cicd.dev-eval.net/nexus/repository/maven-central/.lastUpdated=1538672409208
+https\://devtools.cicd.dev-eval.net/nexus/repository/maven-central/.error=Could not transfer artifact org.apache.maven\:maven-plugin-registry\:jar\:2.0.6 from/to maven-central (https\://devtools.cicd.dev-eval.net/nexus/repository/maven-central/)\: Failed to transfer file\: https\://devtools.cicd.dev-eval.net/nexus/repository/maven-central/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar. Return code is\: 504 , ReasonPhrase\:Gateway Timeout.

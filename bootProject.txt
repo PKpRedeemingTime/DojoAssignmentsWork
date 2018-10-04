@@ -1,3 +1,5 @@
+mkdir projectName
+
 create new maven project and name it (Group ID: maven; artifact id: projectName)
 
 In pom file add:
@@ -11,12 +13,23 @@ In pom file add:
 
 save pom and then in bash run <mvn clean install>
 
-create a package in src/main/java called <com.patrickkilpatrick.web>
+create a package in src/main/java called com.patrickkilpatrick.<projectName>.controllers
 
-create a class in that package with whatever class name
+create a class (with public static void main) in that package with name <projectName>Server
 
 inside that class insert:
 
+@SpringBootApplication
 public static void main(String[] args) {
         SpringApplication.run(<ClassName>.class, args);
 }
+
+create another class with name Main.java
+
+create a new source folder src/main/resources
+
+inside src/main/resources create a static folder
+
+inside static create classes for each view and create a css folder
+
+inside the static folder create style.css

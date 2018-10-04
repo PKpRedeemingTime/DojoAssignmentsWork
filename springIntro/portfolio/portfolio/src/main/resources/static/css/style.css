@@ -1,0 +1,55 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrapper {
+	width: 800px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.header {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.body {
+	display: flex;
+	justify-content: space-between;
+}
+
+.homeTags {
+	margin-left: 100px;
+}
+
+fieldset {
+	width: 250px;
+	margin-top: 10px;
+}
+
+.right {
+	margin-left: 50px;
+}
+
+h1 {
+	margin-bottom: 20px;
+}
+
+.home {
+	float: right;
+}
+
+.picText {
+	margin-left: 50px;
+}
+
+.aboutMe {
+	margin-top: 55px;
+}
+
+.projHome {
+	margin-bottom: 100px;
+}
