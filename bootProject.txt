@@ -1,0 +1,22 @@
+create new maven project and name it (Group ID: maven; artifact id: projectName)
+
+In pom file add:
+
+<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+    <version>2.0.5.RELEASE</version>
+</dependency>
+
+save pom and then in bash run <mvn clean install>
+
+create a package in src/main/java called <com.patrickkilpatrick.web>
+
+create a class in that package with whatever class name
+
+inside that class insert:
+
+public static void main(String[] args) {
+        SpringApplication.run(<ClassName>.class, args);
+}
