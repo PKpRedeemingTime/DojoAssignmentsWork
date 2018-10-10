@@ -26,7 +26,7 @@
 						<tr>
 							<td><c:out value="${team.getName()}" /></td>
 							<td><c:out value="${team.getPlayers().size()}" /></td>
-							<td><a href="TeamPage?id=${loop.index}">Details</a><td><a href="DeleteTeam?id=${loop.index}">Delete</a></td></td>
+							<td><a href="TeamPage?id=${loop.index}">Details</a><td><a href="DeleteTeam?id=${loop.index}">Delete</a></td>
 						</tr>
 					</c:forEach>
 				</tbody>

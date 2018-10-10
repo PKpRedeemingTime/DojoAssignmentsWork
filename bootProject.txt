@@ -1,6 +1,6 @@
 mkdir projectName
 
-create new maven project and name it (Group ID: maven; artifact id: projectName)
+create new maven project and name it (Group ID: maven; artifact id: projectname)
 
 In pom file add:
 
@@ -10,12 +10,24 @@ In pom file add:
     <artifactId>spring-boot-starter-web</artifactId>
     <version>2.0.5.RELEASE</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-jasper -->
+<dependency>
+	<groupId>org.apache.tomcat.embed</groupId>
+	<artifactId>tomcat-embed-jasper</artifactId>
+	<version>9.0.12</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/jstl -->
+<dependency>
+	<groupId>javax.servlet.jsp.jstl</groupId>
+	<artifactId>jstl</artifactId>
+	<version>1.2</version>
+</dependency>
 
 save pom and then in bash run <mvn clean install>
 
 create a package in src/main/java called com.patrickkilpatrick.<projectName>.controllers
 
-create a class (with public static void main) in that package with name <projectName>Server
+create a class (with public static void main) in that package with name <ProjectName>Server
 
 inside that class insert:
 
@@ -28,8 +40,8 @@ create another class with name Main.java
 
 create a new source folder src/main/resources
 
-inside src/main/resources create a static folder
+inside src/main/resources touch (in bash) application.properties and insert the following line: spring.mvc.view.prefix: /WEB-INF/
 
-inside static create classes for each view and create a css folder
+create a new source folder src/main/webapp
 
-inside the static folder create style.css
+inside src/main/webapp create a WEB-INF folder (this is where your views will be)

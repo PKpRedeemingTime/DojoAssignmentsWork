@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrapper {
+	margin: 0px auto;
+	width: 500px;
+	padding: 20px;
+	justify-content: center;
+}
+
+.body {
+	display: flex;
+	justify-content: space-between;
+	margin: opx auto;
+	width: 500px;
+	padding-top: 200px;
+}
+
+.blue {
+	color: blue;
+}
+
+.green {
+	color: green;
+}
