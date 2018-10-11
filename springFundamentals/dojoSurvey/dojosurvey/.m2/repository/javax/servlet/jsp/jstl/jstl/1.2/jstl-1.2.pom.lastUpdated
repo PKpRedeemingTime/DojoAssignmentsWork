@@ -1,0 +1,17 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Oct 10 11:53:02 EDT 2018
+https\://devtools.cicd.dev-eval.net/nexus/repository/maven-central/.error=
+https\://devtools.cicd.dev-eval.net/nexus/repository/Atlassian-3rdparty/.lastUpdated=1539186540880
+https\://devtools.cicd.dev-eval.net/nexus/repository/jive_snapshots/.error=
+https\://devtools.cicd.dev-eval.net/nexus/repository/3rdparty/.lastUpdated=1539186618556
+https\://devtools.cicd.dev-eval.net/nexus/repository/jive_release/.lastUpdated=1539186782262
+https\://devtools.cicd.dev-eval.net/nexus/repository/ElasticSearch/.error=
+https\://devtools.cicd.dev-eval.net/nexus/repository/maven-central/.lastUpdated=1539186539177
+https\://devtools.cicd.dev-eval.net/nexus/repository/Releases/.lastUpdated=1539186619170
+https\://devtools.cicd.dev-eval.net/nexus/repository/3rdparty/.error=
+https\://devtools.cicd.dev-eval.net/nexus/repository/Atlassian-Public/.error=
+https\://devtools.cicd.dev-eval.net/nexus/repository/ElasticSearch/.lastUpdated=1539186617983
+https\://devtools.cicd.dev-eval.net/nexus/repository/Releases/.error=
+https\://devtools.cicd.dev-eval.net/nexus/repository/jive_snapshots/.lastUpdated=1539186617046
+https\://devtools.cicd.dev-eval.net/nexus/repository/Atlassian-Public/.lastUpdated=1539186539849
+https\://devtools.cicd.dev-eval.net/nexus/repository/Atlassian-3rdparty/.error=

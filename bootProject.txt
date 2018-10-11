@@ -6,9 +6,9 @@ In pom file add:
 
 <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
 <dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-web</artifactId>
-    <version>2.0.5.RELEASE</version>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-web</artifactId>
+	<version>2.0.5.RELEASE</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-jasper -->
 <dependency>
@@ -21,6 +21,19 @@ In pom file add:
 	<groupId>javax.servlet.jsp.jstl</groupId>
 	<artifactId>jstl</artifactId>
 	<version>1.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-devtools</artifactId>
+	<version>2.0.5.RELEASE</version>
+	</dependency>
+<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test -->
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-test</artifactId>
+	<version>2.0.5.RELEASE</version>
+	<scope>test</scope>
 </dependency>
 
 save pom and then in bash run <mvn clean install>
@@ -40,8 +53,18 @@ create another class with name Main.java
 
 create a new source folder src/main/resources
 
-inside src/main/resources touch (in bash) application.properties and insert the following line: spring.mvc.view.prefix: /WEB-INF/
-
 create a new source folder src/main/webapp
 
 inside src/main/webapp create a WEB-INF folder (this is where your views will be)
+
+inside src/main/webapp create a lib folder
+
+drag and drop jstl jar into the lib folder
+
+inside src/main/resources create a static folder
+
+inside the static folder create a css folder
+
+inside css folder create style.css
+
+inside src/main/resources touch (in bash) application.properties and insert the following line: spring.mvc.view.prefix: /WEB-INF/

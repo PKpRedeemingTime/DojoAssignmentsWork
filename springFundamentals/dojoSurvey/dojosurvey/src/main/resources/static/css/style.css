@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+
+.box {
+	display: table;
+	margin: 0 auto;
+	border: 2px solid black;
+	padding: 0 20px 20px 20px;
+}
+
+.float {
+  float: right;
+  clear: both;
+  overflow: none;
+}
+
+#comment-label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.result-box {
+	width: 300px;
+}
