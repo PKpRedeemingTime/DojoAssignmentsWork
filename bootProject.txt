@@ -51,19 +51,25 @@ public static void main(String[] args) {
 
 create another class with name Main.java
 
-create a new source folder src/main/resources
+create a package in src/main/java called com.patrickkilpatrick.<projectName>.models
+
+create a class with name <ModelName>
+
+create a package in src/main/java called com.patrickkilpatrick.<projectName>.services
+
+create a class with the name <ModelName>Service
+
+create a new source folder src/main/resources 
 
 create a new source folder src/main/webapp
 
 inside src/main/webapp create a WEB-INF folder (this is where your views will be)
 
-inside src/main/webapp create a lib folder
+inside WEB-INF create a lib folder
 
 drag and drop jstl jar into the lib folder
 
-inside src/main/resources create a static folder
-
-inside the static folder create a css folder
+inside src/main/resources create a static/css folder
 
 inside css folder create style.css
 

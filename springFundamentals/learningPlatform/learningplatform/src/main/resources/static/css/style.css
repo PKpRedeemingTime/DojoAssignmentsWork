@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+
+.wrapper {
+	margin: 0 auto;
+	padding: 0 20px 20px 20px;
+	width: 600px;
+	position: relative;
+}
+
+.box {
+	border: 2px solid black;
+	padding: 20px;
+	height: 200px;
+	width: 80%;
+}
+
+.fortran {
+	display: inline-block;
+}
+
+.links {
+	display: inline-block;
+	float: right;
+}
+
+.output {
+	margin-left: 65px;
+}
