@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Oct 18 14:17:23 EDT 2018
+0e457066c91fff7265565a4b26662058120af9dd@131.84.11.215\:9119>@default-maven-central-https\://devtools.cicd.dev-eval.net/nexus/repository/maven-central/.lastUpdated=1539886636968
+https\://devtools.cicd.dev-eval.net/nexus/repository/Atlassian-Public/.error=
+https\://devtools.cicd.dev-eval.net/nexus/repository/maven-central/.error=Could not transfer artifact org.hibernate.javax.persistence\:hibernate-jpa-2.1-api\:jar\:1.0.2.Final from/to maven-central (https\://devtools.cicd.dev-eval.net/nexus/repository/maven-central/)\: Failed to transfer file\: https\://devtools.cicd.dev-eval.net/nexus/repository/maven-central/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.2.Final/hibernate-jpa-2.1-api-1.0.2.Final.jar. Return code is\: 504 , ReasonPhrase\:Gateway Timeout.
+https\://devtools.cicd.dev-eval.net/nexus/repository/jive_release/.lastUpdated=1539886642991
+https\://devtools.cicd.dev-eval.net/nexus/repository/Atlassian-3rdparty/.lastUpdated=1539886639871
+https\://devtools.cicd.dev-eval.net/nexus/repository/Atlassian-Public/.lastUpdated=1539886638929
+https\://devtools.cicd.dev-eval.net/nexus/repository/Atlassian-3rdparty/.error=

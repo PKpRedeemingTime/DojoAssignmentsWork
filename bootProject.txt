@@ -4,6 +4,13 @@ create new maven project and name it (Group ID: maven; artifact id: projectname)
 
 In pom file add:
 
+<parent>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-parent</artifactId>
+	<version>2.0.6.RELEASE</version>
+	<relativePath/>
+</parent>
+
 <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
 <dependency>
 	<groupId>org.springframework.boot</groupId>
@@ -35,6 +42,25 @@ In pom file add:
 	<version>2.0.5.RELEASE</version>
 	<scope>test</scope>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-data-jpa</artifactId>
+    <version>2.0.5.RELEASE</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.12</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-tomcat -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-tomcat</artifactId>
+    <version>2.0.6.RELEASE</version>
+</dependency>
+
 
 save pom and then in bash run <mvn clean install>
 
@@ -59,6 +85,10 @@ create a package in src/main/java called com.patrickkilpatrick.<projectName>.ser
 
 create a class with the name <ModelName>Service
 
+create a package in src/main/java called com.patrickkilpatrick.<projectName>.repositories
+
+create an interface with the name <ModelName>Repository
+
 create a new source folder src/main/resources 
 
 create a new source folder src/main/webapp
@@ -73,4 +103,11 @@ inside src/main/resources create a static/css folder
 
 inside css folder create style.css
 
-inside src/main/resources touch (in bash) application.properties and insert the following line: spring.mvc.view.prefix: /WEB-INF/
+inside src/main/resources touch (in bash) application.properties and insert the following line: 
+
+spring.mvc.view.prefix: /WEB-INF/
+spring.datasource.url=jdbc:mysql://idbvrhsql01.dtic.mil:3306/pdkilpatrick
+spring.datasource.username=pkilpatrick
+spring.datasource.password=HY_ght84t56#458fhf
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+spring.jpa.hibernate.ddl-auto=update

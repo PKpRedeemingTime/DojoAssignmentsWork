@@ -12,7 +12,7 @@
 	<body>
 		<div class="wrapper">
 			<p class="float"><a href="/">Dashboard</a></p>
-			<p><c:out value="${lang.name}"/></p>
+			<p><c:out value="${lang}"/></p>
 			<p><c:out value="${lang.creator}"/></p>
 			<p><c:out value="${lang.version}"/></p>
 			<a href="/languages/edit/${id}">Edit</a>
