@@ -70,7 +70,10 @@ create a class (with public static void main) in that package with name <Project
 
 inside that class insert:
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com")
+@EnableAutoConfiguration
+@EnableJpaRepositories(basePackages = "com")
+@EntityScan("com")
 public static void main(String[] args) {
         SpringApplication.run(<ClassName>.class, args);
 }

@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Oct 19 13:08:48 EDT 2018
+log4j-to-slf4j-2.10.0.pom>maven-central=
+log4j-to-slf4j-2.10.0.jar>maven-central=

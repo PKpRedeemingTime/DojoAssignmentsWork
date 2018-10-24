@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Oct 22 14:21:37 EDT 2018
+0e457066c91fff7265565a4b26662058120af9dd@131.84.11.215\:9119>@default-maven-central-https\://devtools.cicd.dev-eval.net/nexus/repository/maven-central/.lastUpdated=1540232482295
+https\://devtools.cicd.dev-eval.net/nexus/repository/Atlassian-Public/.error=
+https\://devtools.cicd.dev-eval.net/nexus/repository/maven-central/.error=Could not transfer artifact org.springframework\:spring-jcl\:jar\:5.0.10.RELEASE from/to maven-central (https\://devtools.cicd.dev-eval.net/nexus/repository/maven-central/)\: Failed to transfer file\: https\://devtools.cicd.dev-eval.net/nexus/repository/maven-central/org/springframework/spring-jcl/5.0.10.RELEASE/spring-jcl-5.0.10.RELEASE.jar. Return code is\: 504 , ReasonPhrase\:Gateway Timeout.
+https\://devtools.cicd.dev-eval.net/nexus/repository/jive_release/.lastUpdated=1540232497913
+https\://devtools.cicd.dev-eval.net/nexus/repository/Atlassian-3rdparty/.lastUpdated=1540232489149
+https\://devtools.cicd.dev-eval.net/nexus/repository/Atlassian-Public/.lastUpdated=1540232488228
+https\://devtools.cicd.dev-eval.net/nexus/repository/Atlassian-3rdparty/.error=
